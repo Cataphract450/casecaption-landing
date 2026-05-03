@@ -6,7 +6,7 @@
 
 1. CTA уже ведут в Telegram: `https://t.me/Igorigoryyy`.
 2. Демо-видео уже встроено в блок `#demo`: `assets/casecaption-demo-workspace.mp4`.
-3. Публичный URL: `http://casecaption.185.199.108.153.nip.io/`.
+3. Публичный URL: `https://cataphract450.github.io/casecaption-landing/`.
 4. Если появятся более свежие скриншоты, заменить файлы в `landing/assets/`:
    - `casecaption-questionnaire-desktop.png`
    - `casecaption-document-detail-desktop.png`
@@ -51,7 +51,7 @@ http://127.0.0.1:4177
 ## Проверка перед Product Radar
 
 - CTA ведет на реальный Telegram: `@Igorigoryyy`.
-- Публичный URL: `http://casecaption.185.199.108.153.nip.io/`.
+- Публичный URL: `https://cataphract450.github.io/casecaption-landing/`.
 - Демо-видео открывается без авторизации в блоке `#demo`.
 - На мобильном первый экран читается без горизонтального скролла.
 - Скриншоты показывают реальный продукт, а не устаревший прототип.
