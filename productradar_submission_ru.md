@@ -50,7 +50,7 @@ CaseCaption помогает выпускать повторяемые B2B-до�
 
 Сейчас это private beta. Ищу 3-5 компаний, бухгалтеров или сервисных команд, кому можно бесплатно показать демо и получить честную обратную связь: есть ли такая боль, что неудобно, что нужно доработать.
 
-Сайт и демо: https://cataphract450.github.io/LEX-FLOW-AI/#demo
+Сайт и демо: https://cataphract450.github.io/casecaption-landing/#demo
 Telegram: https://t.me/Igorigoryyy
 ```
 
