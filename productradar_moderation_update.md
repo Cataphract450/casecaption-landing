@@ -16,6 +16,11 @@
 
 - `00-cover-square.png`
 
+Для поля "Логотип" лучше использовать не исходный `casecaption-logo-mark.png`, а квадратную версию:
+
+- `productradar-logo-square.png`
+- запасной вариант с тонкой рамкой: `productradar-logo-square-bordered.png`
+
 Для быстрой загрузки можно использовать архив:
 
 - `landing/productradar-gallery-upload.zip`
