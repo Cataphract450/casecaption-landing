@@ -317,6 +317,26 @@ video {
   text-underline-offset: 4px;
 }
 
+.demo-video-frame figcaption a {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 8px;
+  padding: 0 12px;
+  text-decoration: none;
+}
+
+.demo-video-frame figcaption a::after {
+  margin-left: 7px;
+  content: "↗";
+}
+
+.demo-video-frame figcaption a:hover {
+  border-color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .proof-band {
   border-bottom: 1px solid var(--line-soft);
   background: var(--paper);
