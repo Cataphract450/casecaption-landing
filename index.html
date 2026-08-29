@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>CaseCaption — комплект документов из одного проверенного ввода</title>
+    <title>CaseCaption — договор, счёт и акт без повторного переноса данных</title>
     <meta
       name="description"
-      content="CaseCaption собирает данные из письма, PDF/DOCX, сохранённого пакета или прошлого выпуска, показывает источники и расхождения и выпускает договор, счёт, акт и ZIP по шаблонам компании."
+      content="Настраиваем один документный процесс на ваших шаблонах. Сотрудник проверяет источники и выпускает договор, счёт, акт и ZIP из одного ввода."
     />
-    <meta property="og:title" content="CaseCaption — комплект документов по шаблонам компании" />
+    <meta property="og:title" content="CaseCaption — комплект документов из одного ввода" />
     <meta
       property="og:description"
-      content="Данные из письма и файлов, проверка источников и расхождений, затем согласованные договор, счёт, акт и ZIP."
+      content="Письмо и файлы → проверка источников → договор, счёт, акт и ZIP по шаблонам компании."
     />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="ru_RU" />
@@ -23,104 +23,96 @@
     <meta property="og:image:height" content="630" />
     <meta
       property="og:image:alt"
-      content="CaseCaption: проверенные данные и три настроенных шаблона готовы к выпуску комплекта документов"
+      content="Интерфейс CaseCaption с готовым сценарием для договора, счёта и акта"
     />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="theme-color" content="#f5f7f7" />
-    <link rel="icon" href="assets/casecaption-logo-transparent.png" />
+    <meta name="theme-color" content="#f4f5f2" />
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/casecaption-favicon-64.png" />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/casecaption-demo-closing-pack-2026-07-poster.jpg"
+      fetchpriority="high"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <a class="skip-link" href="#main">Перейти к содержанию</a>
 
     <header class="site-header" aria-label="Главная навигация">
-      <a class="brand" href="#" aria-label="CaseCaption">
+      <a class="brand" href="#main" aria-label="CaseCaption — начало страницы">
         <img src="assets/casecaption-logo-mark.png" alt="" />
         <span>CaseCaption</span>
       </a>
       <nav class="nav-links" aria-label="Разделы страницы">
-        <a href="#result">Результат</a>
+        <a href="#demo">Демо</a>
         <a href="#workflow">Как работает</a>
         <a href="#pilot">Пилот</a>
-        <a href="#data">Данные</a>
       </nav>
-      <a class="button button-ghost" href="https://t.me/Igorigoryyy" target="_blank" rel="noopener">
-        Проверить комплект
+      <a class="header-contact" href="https://t.me/Igorigoryyy" target="_blank" rel="noopener">
+        Telegram
       </a>
     </header>
 
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
-        <div class="section-shell hero-content">
-          <h1 id="hero-title">
-            Один раз настраиваем сценарий и шаблоны. Каждый комплект — из проверенных данных
-          </h1>
-          <p class="lead">
-            Первый комплект начинается с исходников: письма, PDF, DOCX или сохранённого пакета.
-            При повторном выпуске CaseCaption может взять подтверждённые данные из прошлого
-            комплекта, показать источники и расхождения, а после проверки собрать договор,
-            счёт, акт и ZIP.
-          </p>
-          <div class="hero-actions" aria-label="Основные действия">
-            <a class="button button-primary" href="https://t.me/Igorigoryyy" target="_blank" rel="noopener">
-              Проверить один обезличенный комплект
-            </a>
-            <a class="button button-secondary" href="#result">Смотреть демо · около минуты</a>
-          </div>
-          <p class="offer-note">
-            <strong>Первый пилот — 29 000 ₽.</strong>
-            14 500 ₽ на старте, остаток после двух самостоятельных выпусков.
-          </p>
-          <ol class="process-line" aria-label="Ключевой путь CaseCaption">
-            <li>Сценарий + до 3 шаблонов</li>
-            <li>Письмо, файлы или прошлый выпуск</li>
-            <li>Договор + счёт + акт + ZIP</li>
-          </ol>
-        </div>
-      </section>
-
-      <section id="result" class="band band-paper" aria-labelledby="result-title">
-        <div class="section-shell">
-          <div class="section-heading section-heading-left proof-heading">
-            <p class="eyebrow">Демо одного сценария</p>
-            <h2 id="result-title">Около минуты: повторный выпуск без переноса данных</h2>
-            <p>
-              Здесь показан один из сценариев CaseCaption: три шаблона уже настроены,
-              предыдущий выпуск сохранён. Добавляем только новые период, номера, даты и сумму,
-              проверяем источники и выпускаем новый комплект.
+        <div class="section-shell hero-grid">
+          <div class="hero-copy">
+            <h1 id="hero-title">Договор, счёт и акт — без повторного переноса данных</h1>
+            <p class="lead">
+              Срок настройки — 5 рабочих дней после получения согласованных материалов.
+              Дальше сотрудник добавляет письмо и файлы, проверяет источники и скачивает
+              готовый комплект.
             </p>
+            <div class="hero-actions" aria-label="Основные действия">
+              <a class="button button-primary" href="#demo">Смотреть демо — 61 секунда</a>
+              <a
+                class="button button-text"
+                href="https://t.me/Igorigoryyy"
+                target="_blank"
+                rel="noopener"
+              >
+                Обсудить пилот
+              </a>
+            </div>
+            <ul class="scope-line" aria-label="Краткие условия пилота">
+              <li>1 процесс</li>
+              <li>до 3 шаблонов</li>
+              <li>5 рабочих дней</li>
+              <li>29 000 ₽</li>
+            </ul>
           </div>
 
-          <figure class="product-frame demo-video-frame">
+          <figure id="demo" class="product-frame demo-video-frame">
             <video
               controls="controls"
               playsinline="playsinline"
               preload="metadata"
               poster="assets/casecaption-demo-closing-pack-2026-07-poster.jpg"
-              aria-label="Демо одного сценария CaseCaption: повторный комплект собирается из прошлого выпуска и новых условий"
+              aria-label="Демо CaseCaption: от исходников и прошлого выпуска до договора, счёта, акта и ZIP"
             >
               <source src="assets/casecaption-demo-closing-pack-2026-07.mp4" type="video/mp4" />
               Ваш браузер не поддерживает встроенное видео.
               <a href="assets/casecaption-demo-closing-pack-2026-07.mp4">Скачать демо-видео</a>.
             </video>
             <figcaption>
-              <span>Сценарий в демо: прошлый выпуск + новые условия → проверка → три документа → ZIP.</span>
-              <a href="assets/casecaption-demo-closing-pack-2026-07.mp4">Открыть видео отдельно</a>
+              <span><strong>61 секунда.</strong> Реальный интерфейс, синтетические данные.</span>
+              <a href="assets/casecaption-demo-closing-pack-2026-07.mp4">Открыть отдельно</a>
             </figcaption>
           </figure>
+        </div>
+      </section>
 
-          <dl class="proof-facts" aria-label="Результат контрольного прогона">
+      <section class="proof-band" aria-label="Результат контрольного прогона">
+        <div class="section-shell">
+          <dl class="proof-facts">
             <div>
-              <dt>13</dt>
-              <dd>полей взято из прошлого выпуска</dd>
+              <dt>13 полей</dt>
+              <dd>взяты из прошлого выпуска</dd>
             </div>
             <div>
-              <dt>7/7</dt>
-              <dd>изменений подтверждено по источникам</dd>
-            </div>
-            <div>
-              <dt>0</dt>
-              <dd>значений перепечатано вручную</dd>
+              <dt>7 изменений</dt>
+              <dd>подтверждены по источникам</dd>
             </div>
             <div>
               <dt>3 + ZIP</dt>
@@ -128,204 +120,146 @@
             </div>
           </dl>
           <p class="proof-note">
-            Реальный непрерывный прогон на синтетических данных: 13 полей восстановлены из
-            прошлого выпуска, 7 изменений подтверждены по письму, PDF и DOCX. В монтаже
-            сокращено только ожидание разбора; это доказательство работы продукта, а не
-            клиентская статистика.
+            Контрольный прогон на синтетических данных. Это технический результат,
+            не статистика клиентов.
           </p>
+          <details class="demo-transcript">
+            <summary>Что происходит за 61 секунду</summary>
+            <ol>
+              <li><span>00:00</span> Сначала виден результат: договор, счёт, акт и ZIP.</li>
+              <li><span>00:04</span> Выбираем подтверждённые данные прошлого выпуска.</li>
+              <li><span>00:18</span> Добавляем новые условия и проверяем их по источникам.</li>
+              <li><span>00:50</span> Выпускаем комплект и открываем готовый документ.</li>
+            </ol>
+          </details>
         </div>
       </section>
 
       <section id="workflow" class="band band-soft" aria-labelledby="workflow-title">
         <div class="section-shell">
-          <div class="section-heading section-heading-left">
-            <p class="eyebrow">Как работает</p>
-            <h2 id="workflow-title">Один раз настраиваем процесс. Дальше выпускаете сами.</h2>
-            <p>
-              Настройка и регулярный выпуск — это два разных этапа. Поэтому пятидневный
-              запуск не противоречит комплекту за несколько минут.
-            </p>
+          <div class="section-heading">
+            <h2 id="workflow-title">Письмо и файлы → проверка → готовый комплект</h2>
+            <p>Один рабочий путь без обзора всей платформы и лишних настроек.</p>
           </div>
 
-          <div class="timing-split">
-            <section aria-labelledby="setup-once-title">
-              <p class="time-label">Один раз · 5 рабочих дней</p>
-              <h3 id="setup-once-title">Настраиваем рабочий процесс</h3>
-              <ul class="clean-list">
-                <li>Подключаем до трёх утверждённых шаблонов.</li>
-                <li>Согласуем поля и критерий успешного выпуска.</li>
-                <li>Проверяем два контрольных комплекта.</li>
-              </ul>
-            </section>
-            <section aria-labelledby="release-next-title">
-              <p class="time-label">Каждый рабочий комплект · несколько минут</p>
-              <h3 id="release-next-title">Собираете из исходников и проверенных данных</h3>
-              <ul class="clean-list">
-                <li>Добавляете письмо, PDF/DOCX или выбираете сохранённый пакет данных.</li>
-                <li>Для повторного выпуска можно взять прошлый комплект как основу.</li>
-                <li>Проверяете сумму, период, даты, номера и конфликты.</li>
-                <li>Скачиваете договор, счёт, акт и ZIP.</li>
-              </ul>
-            </section>
-          </div>
-
-          <div class="repeat-ledger" aria-labelledby="repeat-title">
-            <div class="repeat-intro">
-              <p class="time-label">Отдельный сценарий · повторный выпуск</p>
-              <h3 id="repeat-title">Прошлый комплект можно использовать как подтверждённую основу</h3>
+          <ol class="workflow-steps">
+            <li>
+              <span class="step-number">1</span>
+              <h3>Добавить исходники</h3>
               <p>
-                Вы сами контролируете повторное использование: выбираете прошлый выпуск
-                или заранее сохранённый набор подтверждённых данных.
+                Текст письма и PDF/DOCX с текстовым слоем. Для повторного выпуска —
+                прошлый комплект.
               </p>
-            </div>
-            <ol class="repeat-list">
-              <li>
-                <span>01</span>
-                <div><strong>Сценарий уже существует</strong><p>В нём связаны ваши договор, счёт и акт.</p></div>
-              </li>
-              <li>
-                <span>02</span>
-                <div><strong>Стабильные данные предлагаются повторно</strong><p>Реквизиты, договор и услугу не приходится переносить между файлами.</p></div>
-              </li>
-              <li>
-                <span>03</span>
-                <div><strong>Изменения остаются под контролем</strong><p>Сумма, период, даты, номера и расхождения требуют подтверждения.</p></div>
-              </li>
-            </ol>
-          </div>
-
-          <p class="system-note">
-            CaseCaption не заменяет 1С или ЭДО — он готовит согласованный комплект до
-            передачи в существующий контур.
-          </p>
+            </li>
+            <li>
+              <span class="step-number">2</span>
+              <h3>Проверить изменения</h3>
+              <p>
+                CaseCaption показывает источник каждого значения и оставляет расхождения
+                на проверку человеку.
+              </p>
+            </li>
+            <li>
+              <span class="step-number">3</span>
+              <h3>Скачать результат</h3>
+              <p>Договор, счёт, акт и ZIP собираются по согласованным шаблонам.</p>
+            </li>
+          </ol>
         </div>
       </section>
 
       <section class="band band-paper" aria-labelledby="fit-title">
         <div class="section-shell">
-          <div class="section-heading section-heading-left">
-            <p class="eyebrow">Где есть смысл</p>
-            <h2 id="fit-title">Подходит, если документы уже есть — но данные всё равно переносят руками</h2>
+          <div class="section-heading">
+            <h2 id="fit-title">Где это имеет смысл</h2>
           </div>
 
-          <div class="fit-grid">
+          <div class="decision-grid">
             <section aria-labelledby="fit-yes-title">
               <h3 id="fit-yes-title">Подходит</h3>
               <ul class="clean-list">
-                <li>Реквизиты, сумма, период и основание повторяются в нескольких документах.</li>
-                <li>Данные приходят из почты, PDF, Word, Excel или CRM.</li>
-                <li>Менеджер или бухгалтер вручную сверяет комплект перед отправкой.</li>
+                <li>Одни данные повторяются в двух–трёх документах.</li>
+                <li>Их переносят из писем и файлов вручную.</li>
+                <li>Сотрудник всё равно сверяет комплект перед отправкой.</li>
               </ul>
             </section>
-            <section aria-labelledby="fit-no-title">
-              <h3 id="fit-no-title">Не подходит</h3>
-              <ul class="clean-list">
-                <li>1С уже выпускает весь комплект без повторного ввода и сверки.</li>
-                <li>Нужен только дешёвый одиночный счёт.</li>
-                <li>Требуется юридическая или бухгалтерская экспертиза вместо автоматизации выпуска.</li>
+            <section aria-labelledby="limits-title">
+              <h3 id="limits-title">Честные границы</h3>
+              <ul class="clean-list clean-list-limits">
+                <li>Не заменяет 1С, CRM или ЭДО.</li>
+                <li>Не даёт юридическое или бухгалтерское заключение.</li>
+                <li>Для PDF и DOCX нужен текстовый слой; OCR пока не входит в пилот.</li>
               </ul>
             </section>
           </div>
+
+          <details id="data" class="data-details">
+            <summary>Как работаем с данными</summary>
+            <div>
+              <p>Для знакомства достаточно публичного демо на синтетических данных.</p>
+              <p>
+                Клиентские материалы, в том числе обезличенные, принимаем только после
+                старта платного пилота. До передачи согласуем размещение, доступ, срок
+                хранения и удаление.
+              </p>
+              <p>
+                Текст передаётся внешней модели только после отдельного согласия.
+              </p>
+              <p>
+                «Проверено» означает сверку с фрагментом исходника и согласованность между
+                документами, а не проверку права или налогов.
+              </p>
+            </div>
+          </details>
         </div>
       </section>
 
       <section id="pilot" class="pilot-band" aria-labelledby="pilot-title">
         <div class="section-shell pilot-layout">
           <div>
-            <p class="eyebrow">Первый клиентский запуск</p>
-            <h2 id="pilot-title">Первый рабочий пилот — 29 000 ₽</h2>
+            <h2 id="pilot-title">Пилот: один процесс за 5 рабочих дней</h2>
             <p>
-              Один процесс, до трёх шаблонов и два контрольных выпуска за 5 рабочих дней.
+              До старта фиксируем состав документов, источники и критерий приёмки.
+              Настройка включает до трёх утверждённых шаблонов; срок начинается после
+              получения согласованных материалов.
             </p>
-            <ul class="pilot-meta" aria-label="Состав пилота">
-              <li>1 процесс</li>
-              <li>до 3 шаблонов</li>
-              <li>5 рабочих дней</li>
-            </ul>
+            <p class="pilot-before-payment">
+              До оплаты — минутное демо и 12-минутная проверка процесса. Работа с вашими
+              шаблонами начинается после первой части оплаты.
+            </p>
           </div>
           <div class="pilot-payment">
-            <p class="payment-lead">14 500 ₽ при старте.</p>
-            <p>
-              Остаток — после того, как ваш сотрудник сам выпустит два согласованных
-              комплекта.
-            </p>
-            <a class="button button-primary" href="https://t.me/Igorigoryyy" target="_blank" rel="noopener">
-              Проверить, подходит ли мой процесс
+            <p class="price">29 000 ₽</p>
+            <dl class="payment-split">
+              <div>
+                <dt>14 500 ₽</dt>
+                <dd>при старте</dd>
+              </div>
+              <div>
+                <dt>14 500 ₽</dt>
+                <dd>после двух самостоятельных выпусков</dd>
+              </div>
+            </dl>
+            <a
+              class="button button-primary"
+              href="https://t.me/Igorigoryyy"
+              target="_blank"
+              rel="noopener"
+            >
+              Обсудить один процесс
             </a>
           </div>
-        </div>
-      </section>
-
-      <section id="data" class="band band-paper" aria-labelledby="data-title">
-        <div class="section-shell">
-          <div class="section-heading section-heading-left">
-            <p class="eyebrow">Данные и доверие</p>
-            <h2 id="data-title">Работаем только в согласованных границах</h2>
-            <p>
-              Для первой проверки достаточно обезличенного примера. Правила реального
-              пилота фиксируются до загрузки рабочих документов.
-            </p>
-          </div>
-
-          <dl class="trust-list">
-            <div>
-              <dt>Первый тест</dt>
-              <dd>Обезличенный пример; реальные документы для знакомства не нужны.</dd>
-            </div>
-            <div>
-              <dt>Внешний разбор</dt>
-              <dd>
-                Текст передаётся внешнему поставщику только после отдельного согласия
-                в интерфейсе. Без него доступен серверный разбор CaseCaption.
-              </dd>
-            </div>
-            <div>
-              <dt>Проверка</dt>
-              <dd>
-                Принятое значение связано с фрагментом исходника; конфликт не принимается
-                автоматически.
-              </dd>
-            </div>
-            <div>
-              <dt>Реальный пилот</dt>
-              <dd>
-                До загрузки согласуем размещение, доступ, срок хранения и удаление данных.
-              </dd>
-            </div>
-          </dl>
-
-          <p class="boundary-note">
-            <strong>Что означает «проверено»:</strong>
-            сверку с исходниками и согласованность между документами, а не юридическое,
-            налоговое или бухгалтерское заключение.
-          </p>
-        </div>
-      </section>
-
-      <section id="contact" class="final-cta" aria-labelledby="contact-title">
-        <div class="section-shell final-cta-inner">
-          <div>
-            <p class="eyebrow">Следующий шаг</p>
-            <h2 id="contact-title">Есть один комплект, который каждый месяц собирают вручную?</h2>
-            <p>
-              Напишите состав документов и примерный объём. Реальные файлы до согласования
-              режима данных не нужны.
-            </p>
-          </div>
-          <a class="button button-primary" href="https://t.me/Igorigoryyy" target="_blank" rel="noopener">
-            Написать в Telegram
-          </a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <a class="brand brand-small" href="#" aria-label="CaseCaption">
+      <a class="brand brand-small" href="#main" aria-label="CaseCaption — начало страницы">
         <img src="assets/casecaption-logo-mark.png" alt="" />
         <span>CaseCaption</span>
       </a>
-      <p>© 2026 CaseCaption. Проверенный закрывающий комплект без повторного ввода.</p>
-      <a href="https://t.me/Igorigoryyy" target="_blank" rel="noopener">@Igorigoryyy</a>
+      <p>Игорь Кравцов · <a href="https://t.me/Igorigoryyy">@Igorigoryyy</a></p>
+      <p>© 2026 CaseCaption</p>
     </footer>
   </body>
 </html>
